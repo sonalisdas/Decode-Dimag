@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+</head>
+<body>
+  <div class="menu-bar">
+    <h1 class="logo">Decode<span>Dimag.</span></h1>
+    <ul>
+      <li><a href="./home.html">HOME</a></li>
+      <li><a href="#">COURSES</a>
+        <div class="dropdown-menu">
+          <ul>
+            <li> <a href="./python.html"> PYTHON</a></li>
+            <li><a href="./mysql.html">MYSQL </a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="./about_us.html">CONTACT US</a></li>
+    </ul>
+  </div>
+      <br>
+      <div class="wrapper">
+        <h3>Python Tutorial</h1>
+          <br>
+        <div class="sidebar">
+          <ul>
+            <li><a href="#intro">Introduction</a></li>
+          <li><a href="#pki">Keyword And Identifier</a></li>
+          <li><a href="#dt">Datatypes</a></li>
+          <li><a href="#pif">Python if...else Statement</a></li>
+          <li><a href="#pfl">Python for Loop</a></li>
+          <li><a href="#pf">Python Functions</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="mbox">
+
+        <div id="intro">
+          <br><br><br><br><br>
+          <h1>Introduction</h1>
+          <br>
+          <p>
+            Welcome to the decodedimag.com interactive python tutorial.
+            Whether you are experienced programmer or not,this website is intended for everyone who wishes to learn the python programming language. 
+            Just click on the chapter you wish to begin from, and follow the instructions. <br>
+            Good Luck!
+          </p>
+          <br>
+          <h2>HOW TO GET STARTED WITH PYTHON?</h2>
+          <br>
+          <p>
+            In this tutorial, you will learn to install and run Python on your computer. Once we do that, we will also write our first Python program. <br> <br>
+            INSTALL PYTHON <br> <br>
+            Here's how you can install and run Python on your computer. <br>
+            1.	Download the latest version of Python. <br>
+            2.	Run the installer file and follow the steps to install Python <br>
+            During the install process, check Add Python to environment variables. This will add Python to environment variables, and you can run Python from any part of the computer.
+            Also, you can choose the path where Python is installed.
+            <br><br>
+            <center><img id="i1" src="./images/i1.jpg" alt=""></center>
+            <br>
+            3.Installing Python on the computer
+            <br>
+            Once you finish the installation process, you can run Python. <br><br>
+            YOUR FIRST PYTHON PROGRAM <br> <br>
+            Now that we have Python up and running, we can write our first Python program.
+            Let's create a very simple program called Hello World. A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a new programming language to beginners. <br>
+            <br><br>
+            Type the following code in any text editor or an IDE and save it as hello_world.py
+            <br><br>
+            <img id="ims" src="./images/i2.jpg" alt="">
+            <br> <br>
+            Then, run the file. You will get the following output.
+            <br><br>
+            <img id="ims" src="./images/i3.jpg" alt="">
+            <br><br>
+            Congratulations! You just wrote your first program in Python. <br> 
+            <br>
+            As you can see, this was a pretty easy task. This is the beauty of the Python programming language.
+
+          </p>
+        </div>
+        
+        <div id="pki">
+          <br><br><br> <hr> <br><br>
+          <h1>Keyword And Identifier</h1>
+          <br>
+          <p>
+            In this tutorial, we will learn about keywords (reserved words in Python) and identifiers (names given to variables, functions, etc.). <br>
+          </p>
+          <br>
+          <h2>Python Keywords</h2>
+          <br>
+          <p>
+            Keywords are predefined, reserved words used in Python programming that have special meanings to the compiler.
+            <br>
+            We cannot use a keyword as a variable name, function name, or any other identifier. They are used to define the syntax and structure of the Python language.
+            <br>
+            All the keywords except True, False and None are in lowercase and they must be written as they are. The list of all the keywords is given below.
+            <center>
+            <br><br>
+            <img id="i1" src="./images/i4.jpg" alt=""> <br><br>
+            </center>
+            Looking at all the keywords at once and trying to figure out what they mean might be overwhelming.
+            <br><br> 
+            <h2>Python Identifier</h2>
+            Identifiers are the name given to variables, classes, methods, etc. For example, <br> <br>
+            <img id="ims" src="./images/i5.jpg" alt=""> <br><br>
+            Here, language is a variable (an identifier) which holds the value 'Python'.
+            We cannot use keywords as variable names as they are reserved names that are built-in to Python. For example, <br><br>
+            <img id="ims" src="./images/i6.jpg" alt="">
+            The above code is wrong because we have used continue as a variable name.
+            <br> <br>
+            <h2>Rules for Naming an Identifier</h2> <br>
+              <ul>
+                <li>Identifiers cannot be a keyword.</li>
+                <li>Identifiers are case-sensitive.</li> 
+                <li>It can have a sequence of letters and digits. However, it must begin with a letter or _. The first letter of an identifier cannot be a digit.</li> 
+                <li>It's a convention to start an identifier with a letter rather _.</li> 
+                <li>Whitespaces are not allowed.</li> 
+                <li>We cannot use special symbols like !, @, #, $, and so on.</li>            
+              </ul>
+              <br><br>
+              <h2>Some Valid and Invalid Identifiers in Python</h2>
+              <br><br>
+              <center><img id="i1" src="./images/i7.jpg" alt=""></center>             
+            
+          </p>
+        </div>
+
+        <div id="dt">
+          <br><br><br> <hr> <br><br>
+          <h1>Data Types</h1>
+          <br>
+          <p>In this tutorial, you will learn about different data types we can use in Python with the help of examples.</p> <br>
+          <center><img id="i1" src="./images/i9.jpg" alt=""></center>
+          <br>
+          <p>
+            In computer programming, data types specify the type of data that can be stored inside a variable. For example, 
+            <br><br>
+            <img id="ims" src="./images/i8.jpg" alt="">
+            <br><br>
+            Here, 24 (an integer) is assigned to the num variable. So the data type of num is of the int class.
+          </p>
+          <br><br>
+          <h2>Getting the Data Type</h2>
+          <br>
+          <p>You can get the data type of any object by using the type() function:</p>
+          <br>
+          <img id="ims" src="./images/i10.jpg" alt="">
+          <br> <br>
+          You will get output as : <br> <br>
+          <img id="ims" src="./images/i11.jpg" alt=""> <br><br>
+          <h2>Setting the Data Type</h2>
+          <br>
+          <p>
+            In Python, the data type is set when you assign a value to a variable:
+            <br> <br>
+            <center><img id="i2" src="./images/i12.jpg" alt=""></center>
+          </p>
+        </div>
+        <div id="pif">
+          <br><br><br> <hr> <br><br>
+          <h1>Python if...else Statement</h1>
+              <br>In this tutorial, you will learn about the Python if...else statement with the help of examples to create decision-making programs.<br>
+              <br>
+              In Python, there are three forms of the if...else statement.<br><br>
+              1. if statement<br>
+              2. if...else statement<br>
+              3. if...elif...else statement<br><br>
+             
+          <h2>1. Python if statement</h2>
+          <br><br>The syntax of if statement in Python is:<br><br>
+          <img id="ims" src="images/i13.jpg" >
+              <br><br>
+                  The if statement evaluates condition.<br>
+                  If condition is evaluated to True, the code inside the body of if is executed.<br>
+                  If condition is evaluated to False, the code inside the body of if is skipped.<br><br>
+                  <center><img id="i1" src="images/i14.jpg"></center><br>
+                <h2>2. Python if...else Statement</h2><br>
+                An if statement can have an optional else clause.<br>
+                The syntax of if...else statement is:<br><br>
+                <img id="ims2" src="images/i15.jpg"><br>
+                <br>The if...else statement evaluates the given condition:<br><br>
+                If the condition evaluates to True,<br>
+                1.the code inside if is executed<br>
+                2.the code inside else is skipped<br><br>
+                If the condition evaluates to False,<br>
+                1.the code inside else is executed<br>
+                2.the code inside if is skipped<br><br>
+                <center><img id="i1" src="images/i16.jpg"></center><br>
+                <h2>3. Python if...elif...else Statement</h2><br>
+                The if...else statement is used to execute a block of code among two alternatives.<br>
+                
+                
+                However, if we need to make a choice between more than two alternatives, then we use the if...elif...else statement.<br>
+                The syntax of the if...elif...else statement is:<br><br>
+                <img id="ims2" src="images/i17.jpg">
+                <br><br>Here,<br>
+                If condition1 evaluates to true, code block 1 is executed.<br>
+                If condition1 evaluates to false, then condition2 is evaluated.<br>
+                If condition2 is true, code block 2 is executed.<br>
+                If condition2 is false, code block 3 is executed.<br><br>
+                <center><img id="i1" src="images/i18.jpg"></center><br>
+                <h2>4.Python Nested if statements</h2><br>
+                We can also use an if statement inside of an if statement. This is known as a nested if statement.<br>
+                The syntax of nested if statement is:<br><br>
+                <img id="ims2" src="images/i21.jpg"><br><br>
+                
+                
+                      </p>
+        </div>
+        <div id="pfl">
+                      <br><br><br> <hr> <br><br>
+                    <h1>Python for Loop</h1>
+                <p><br>In this tutorial, we'll learn how to use a for loop in Python with the help of examples.<br>
+                In computer programming, loops are used to repeat a block of code<br>
+                For example, if we want to show a message 100 times, then we can use a loop. It's just a simple example; you can achieve much more with loops.<br><br>
+                There are 2 types of loops in Python:<br>
+                for loop<br>
+                while loop<br><br>
+                
+                
+                <h2>Python for Loop</h2><br>
+                In Python, the for loop is used to run a block of code for a certain number of times. It is used to iterate over any sequences such as list, tuple, string, etc.<br>
+                The syntax of the for loop is:<br><br>
+                <img id="ims" src="images/i19.jpg"><br><br>
+                Here, val accesses each item of sequence on each iteration. Loop continues until we reach the last item in the sequence.<br><br>
+                
+                
+                <h2>Flowchart of Python for Loop</h2>
+                <center><img id="i1" src="images/i20.jpg"></center><br><br>
+                <h2>Example: Loop Over Python List</h2>
+                <br><br>
+                <img id="ims2" src="./images/i22.jpg">
+                <br><br>
+                Output<br><br>
+                <img id="ims2" src="./images/i23.jpg"><br><br>
+                In the above example, we have created a list called languages.<br>
+                Initially, the value of language is set to the first element of the array,i.e. Swift, so the print statement inside the loop is executed.<br>
+                language is updated with the next element of the array and the print statement is executed again. This way the loop runs until the last element of an array is accessed.<br>
+                <br>
+                <h2>Python for Loop with Python range()</h2><br>
+                A range is a series of values between two numeric intervals.<br><br>
+                We use Python's built-in function range() to define a range of values. For example,<br><br>
+                <img id="ims" src="./images/i24.jpg"><br><br>
+                Here, 4 inside range() defines a range containing values 0, 1, 2, 3.<br>
+                In Python, we can use for loop to iterate over a range. For example,<br><br>
+                <img id="ims2" src="./images/i25.jpg"><br><br>
+                Output<br><br>
+                <img id="ims2" src="./images/i26.jpg"><br><br>
+                In the above example, we have used the for loop to iterate over a range from 0 to 3.<br><br>
+                The value of i is set to 0 and it is updated to the next number of the range on each iteration. This process continues until 3 is reached.<br><br>
+                <center><img id="i1" src="./images/i27.jpg"></center><br><br>
+                </p>
+        </div>
+          
+        <div id="pf">
+          <br><br><hr><br><br>
+              <p>
+                <h1>Python Functions</h1><br>
+                    In this tutorial, we will learn about the Python function and function expressions with the help of examples.<br>
+                    A function is a block of code that performs a specific task.<br><br>
+                    Suppose, you need to create a program to create a circle and color it. You can create two functions to solve this problem:<br>
+                    1. create a circle function<br>
+                    2. create a color function<br><br>
+                    Dividing a complex problem into smaller chunks makes our program easy to understand and reuse.<br><br>
+          
+          
+                  <h2>Types of function</h2><br>
+                  There are two types of function in Python programming:
+                  <br>
+                  1. Standard library functions - These are built-in functions in Python that are available to use.<br>
+                  2. User-defined functions - We can create our own functions based on our requirements.<br><br>
+                  
+                  
+                  <h2>Python Function Declaration</h2><br>
+                  The syntax to declare a function is:<br><br>
+                  <img id="ims2" src="./images/i28.jpg"><br><br>
+                  Here,<br>
+                  1. def - keyword used to declare a function<br>
+                  2. function_name - any name given to the function<br>
+                  3. arguments - any value passed to function<br>
+                  4. return (optional) - returns value from a function<br>
+                  <br>Let's see an example,<br>
+                  <img id="ims" src="./images/i29.jpg"><br><br>
+                  Here, we have created a function named greet(). It simply prints the text Hello World!.<br>
+                  This function doesn't have any arguments and doesn't return any values.
+                  <br><br>
+                  <h2>Calling a Function in Python</h2><br>
+                  In the above example, we have declared a function named greet().<br><br>
+                  <img id="ims" src="./images/i29.jpg"><br><br>
+                  Now, to use this function, we need to call it.<br>
+                  Here's how we can call the greet() function in Python.<br><br>
+                  <img id="ims" src="./images/i30.jpg"><br><br>
+                  <h2>Example: Python Function</h2><br>
+                  <img id="ims2" src="./images/i31.jpg"><br><br>
+                  Output<br><br>
+                  <img id="ims" src="./images/i32.jpg"><br><br>
+                  In the above example, we have created a function named greet(). Here's how the program works:<br><br>
+                  <center><img id="i1" src="./images/i33.jpg"></center><br><br>
+                  Here,<br>
+                  1. When the function is called, the control of the program goes to the function definition.<br>
+                  2. All codes inside the function are executed.<br>
+                  3. The control of the program jumps to the next statement after the function call.<br>
+                  <br><br><br><br>
+              </p>
+        </div>
+      </div>
+            <br><br><br><br><br><br>      
+</body>
+<footer>
+  <h1 class="footer_logo">DECODE DIMAG</h1>
+  <p class="footer_text">Lets DECODE your brain to code</p>
+  
+</footer>
+</html>

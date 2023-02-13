@@ -1,0 +1,84 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Decode_dimag</title>
+</head>
+
+<body>
+  <section>
+      <div class="circle"></div>
+      <header>
+          <a href="#"><img src="./images/decode dimag.png" class="logo"></a>
+          <div class="toggle" onclick="toggleMenu()"></div>
+          <ul class="navigation">
+              <li><a href="./home.html">Home</a></li>
+              
+              <li><a href="./courses.html">Courses</a>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="./python.html">PYTHON</a></li>
+                    <li><a href="./mysql.html">MYSQL </a></li>            
+                  </ul>
+                </div>
+              </li>
+
+              <li><a href="./about_us.html">Contact</a></li>
+          </ul>
+      </header>
+      <div class="content">
+          <div class="textBox">
+              <h2>DECODE DIMAG<br>It's <span>LETS DECODE</span></h2>
+              <p class="decode_p">We provide low-cost and no-cost programs that teach and encourage people, especially underrepresented youths, to code, lead, and improve their understanding of the world. One of the best e-learning platform to learn Python and Mysql</p>
+              
+                <br>
+                <h1 class="about">ABOUT US</h1>
+                <p class="about_p">Decode Dimag is published in  the year 2023.
+                  Our dynamic content  serves the college community by providing training, research, and flexible support services. Through creative problem solving.Robert greene once said the future belongs to those who learns more skills and use them creative way.</p>
+                  <video class="viedo" width="320" height="240" controls>
+                      <source src="./images/intro video.mp4" type="video/mp4">
+                    </video><br>
+                  <br>
+                  <br>
+                  <br>
+                  <h1>WHAT WE DO ??</h1>
+                  <br>
+                  <p class="">We provide low-cost and no-cost programs that teach and encourage people, especially underrepresented youths, to code, lead, and improve their understanding of the world. One of the best e-learning platform to learn Python and Mysql</p>
+          </div>
+          <div class="imgBox">
+              <img src="./images/decode dimag.png" class="Decode_dimag">
+          </div>
+      </div>
+      <ul class="thumb">
+          <li> <img src="./images/python.png" onclick="imgSlider('./images/python.png'); changeColor('#017143')"></li>
+          
+          <li><img src="./images/mysql.png" onclick=" imgSlider('./images/mysql.png'); changeColor('#eb4795')"></li>
+          
+      </ul>
+      <div>
+
+      </div>
+  </section>
+
+  <script type="text/javascript">
+      function imgSlider(anything) {
+          document.querySelector('.decode_dimag').src = anything;
+      }
+
+      function changeColor(color) {
+          const circle = document.querySelector('.circle');
+          circle.style.background = color;
+      }
+
+      function toggleMenu() {
+          let menuToggle = document.querySelector('.toggle');
+          let navigation = document.querySelector('.navigation');
+          menuToggle.classList.toggle('active');
+          navigation.classList.toggle('active');
+      }
+  </script>
+
+
+</body>
+</html>

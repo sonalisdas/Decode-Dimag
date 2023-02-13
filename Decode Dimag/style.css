@@ -1,0 +1,380 @@
+:root {
+    --color-primary: #A5C9CA;
+    --color-white: #e9e9e9;
+    --color-black: #2C3333;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #E7F6F2;
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: var(--color-primary);
+  }
+  
+  .menu-bar {
+    background-color:#2C3333;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #2C3333;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  .wrapper{
+    background-color: #A5C9CA;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+  }
+  .sidebar ul li a{
+    display: flex;
+    padding: 10px 30px;
+    color: #edf1f6;
+    font-size: 16px;
+  }
+  .sidebar li{
+    list-style: none;
+   
+  }
+  .sidebar li:hover{
+    background-color: #477a87; 
+  }
+  .mbox{
+    background-color: #A5C9CA;
+    height: auto;
+    width: 950px;
+    position: sticky;
+    left: 250px;
+    padding: 20px;
+    top: 100px;
+    z-index: -1;
+  }
+  #i1{
+    height: 250px;
+    width: auto;
+  }
+  #ims{
+    height: 50px;
+    width: 100%;
+  }
+  #i2{
+    height: 500px;
+    width: auto;
+  }
+  footer{
+    border-top-left-radius: 5px;
+    position: relative;
+    background-color: #A5C9CA;
+    height: 250px;
+    width: 100%;
+    z-index: -1;
+  }
+  .footer_logo{
+    text-decoration: overline;
+    font-size: 50px;
+    
+    text-align: center;
+    color: #395B64;
+  }
+  .footer_text{
+    text-align: center;
+    
+    color: #395B64;
+    font-family: 'Cinzel Decorative', cursive;
+  
+  }
+  .insta{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 500px;
+    top: 25px;
+    
+    color: #E7F6F2;
+  }
+  .twitter{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 885px;
+    top: 25px
+  }
+  .box_mysql{
+    height: 550px;
+      width: 30%;
+      background-color: #212b38;
+      border-radius: 25px;
+      position: relative;
+      bottom: 550px;
+      left: 900px; 
+  }
+  .facebook{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 500px;
+    top: 25px
+  
+  }
+  .linkedin{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 550px;
+    top: 25px
+  
+  }
+  .mail{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 600px;
+    top: 25px
+    
+  } 
+  #ims2{
+    height: 150px;
+    width: 100%;
+  }
+  footer{
+    border-top-left-radius: 5px;
+    position: relative;
+    background-color: #A5C9CA;
+    height: 20%;
+    width: auto;
+    position: relative;
+    bottom: 0%;
+  }
+  .footer_logo{
+    text-decoration: overline;
+    font-size: 100%;
+    text-align: center;
+    color: #395B64;
+  }
+  .footer_text{
+    text-align: center;
+    color: #395B64;
+    font-family: 'Cinzel Decorative', cursive;
+  
+  }
+  .logo {
+    color: var(--color-white);
+    font-size: 50px;
+  }
+  .logo span {
+    color: var(--color-primary);
+  }
+  .courses{
+    padding-top: 50px;
+    background-color: transparent;
+    width: 100%;
+    height: 750px;
+    position: static;
+    z-index: -1;
+  }
+  .python_img{
+    height: 200px;
+    width: 80%;
+    position: static;
+    left: 50px; 
+  }
+  .python_hover{
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+  }
+  .box_python{
+    height: 550px;
+    width: 30%;
+    border-radius: 25px;
+    margin-left: 150px;
+    background-color: #212b38;
+    padding-bottom: 50px; 
+  }
+  .heading_python{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: #A5C9CA;
+  }
+  button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #A5C9CA;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #A5C9CA;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #A5C9CA;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+   .online_teaching{
+    height: 200px;
+    width: 200px;
+   }
+.learn_more_python{
+  position: relative;
+  left: 150px;
+  top: 30px;
+  bottom: 500px;
+} 
+.mysql_heading{
+  font-size: 50px;
+  font-weight: 20px;
+  text-align: center;
+  padding-top: 25px;
+  color: #A5C9CA;
+}
+.learn_more_mysql{
+  position: relative;
+  left: 150px;
+  top: 50px;
+
+}
+.python_intro{
+  color: #A5C9CA;
+  padding-top: 25px;
+  line-height: 2 ;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mysql_intro{
+  color: #A5C9CA;
+  line-height: 2 ;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.box_mysql{
+  height: 550px;
+  width: 30%;
+  background-color: #212b38;
+  border-radius: 25px;
+  position: relative;
+  bottom: 550px;
+  left: 700px;
+  padding-bottom: 50px;
+}
+.mysql_img{
+  height: 200px;
+  width: 80%;
+  position: static;
+  left: 35px;
+  
+}
+.cou{
+  text-align: center;
+  padding-left: 50px;
+  font-size: 50px;
+  text-decoration: overline;
+  font-family: 'Acme', sans-serif;
+ 
+}

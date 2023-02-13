@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+</head>
+<body>
+  <div class="menu-bar">
+    <h1 class="logo">Decode<span>Dimag.</span></h1>
+    <ul>
+      <li><a href="./home.html">Home</a></li>
+      <li><a href="#">Courses<i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-menu">
+              <ul>
+                <li><a href="./python.html">PYTHON</a></li>
+                <li><a href="./mysql.html">MYSQL </a></li>
+              </ul>
+            </div>
+      </li>
+      <li><a href="./about_us.html">Contact us</a></li>
+    </ul>
+  </div>
+      <br>
+      <div class="wrapper">
+        <h3>MYSQL Tutorial</h1>
+          <br>
+        <div class="sidebar">
+          <ul>
+            <li><a href="#intro">Introduction</a></li>
+          <li><a href="#fi">Filtering data</a></li>
+          <li><a href="#jt">Joining tables</a></li>
+          <li><a href="#gd">Grouping data and Subqueries</a></li>
+          <li><a href="#cte">Common Table Expressions and Set operators </a></li>
+          <li><a href="#mdm">Modifying data in MySQL</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="mbox">
+        <div>
+          <div id="intro"><br><br><br><br>
+            <h1>Introduction</h1><br>
+              <p>
+              This MySQL basics section teaches you how to use SQL statements to manage data in MySQL. It’ll provide you with everything you need to know to work with MySQL effectively.<br><br>
+              <h1> Querying data</h1>
+              <br>1.<b>SELECT FROM</b> – show you how to use simple SELECT FROM statement to query the data from a single table.<br>
+              <br><img id="ims" src="images/m1.jpg"><br>
+              <br>2.<b>SELECT</b> – learn how to use the SELECT statement without referencing a table.<br><br>
+              <br><img id="ims" src="images/m2.jpg"><br><br>
+              <h1> Sorting data</h1>
+              <br>1.<b>ORDER BY </b>– show you how to sort the result set using ORDER BY clause. The custom sort order with the FIELD function will be also covered.<br><br>
+              <br><img id="ims2" src="images/m3.jpg"><br><br>
+              </div>
+              <div id="fi"><br><br><hr><br><br>  
+                  <h1>Filtering data</h1>
+                  <br>1.<b>WHERE</b> – learn how to use the WHERE clause to filter rows based on specified conditions.<br>
+                  <br><img id="ims2" src="images/m4.jpg"><br><br>
+                  <br>2.<b>SELECT  DISTINCT </b>– show you how to use the DISTINCT operator in the SELECT statement to eliminate duplicate rows in a result set.<br>
+                  <br><img id="ims2" src="images/m5.jpg"><br><br>
+                  <br>3.<b>AND</b> – introduce you to the AND operator to combine Boolean expressions to form a complex condition for filtering data.<br>
+                  <br><img id="ims" src="images/m6.jpg"><br><br>
+                  <br>4.<b>OR></b>– introduce you to the OR operator and show you how to combine the OR operator with the AND operator to filter data.<br>
+                  <br><img id="ims" src="images/m7.jpg"><br><br>
+                  <br>5.<b>IN</b> – show you how to use the IN operator in the WHERE clause to determine if a value matches any value in a set.<br>
+                  <br><img id="ims" src="images/m8.jpg"><br><br>
+                  <br><img id="i1" src="images/m9.jpg"><br><br>
+                  <br>6.<b>NOT IN</b> – negate the IN operator using the NOT operator to check if a value doesn’t match any value in a set.<br>
+                  <br><img id="ims" src="images/m10.jpg"><br><br>
+                  <br><img id="i1" src="images/m11.jpg"><br><br>
+                  <br>7.<b>BETWEEN</b> – show you how to query data based on a range using BETWEENoperator.<br>
+                  <br>8.<b>LIKE</b>  – provide you with technique to query data based on a pattern.<br>
+                  <br><img id="ims2" src="images/m12.jpg"><br><br>
+                  <br><img id="i1" src="images/m13.jpg"><br><br>
+                  <br>9.<b>LIMIT </b>– use LIMIT to constrain the number of rows returned by SELECT statement<br>
+                  <br>10.<b>IS NULL</b> – test whether a value is NULL or not by using IS NULL operator.<br><br>
+              </div>
+              <div id="jt"><br><br><hr><br><br>
+                  <h1>Joining tables</h1>
+                  <br>1.<b>Table & Column Aliases</b> – introduce you to table and column aliases.<br>
+                  <br>2.<b>Joins</b>  – give you an overview of joins supported in MySQL including inner join, left join, and right join.<br>
+                  <br><img id="i1" src="images/m14.jpg"><br><br>
+                  <br>3.<b>INNER JOIN</b> – query rows from a table that has matching rows in another table.
+                  <br><img id="ims2" src="images/m15.jpg"><br><br>
+                  <br>4.<b>LEFT JOIN</b> – return all rows from the left table and matching rows from the right table or null if no matching rows found in the right table.<br>
+                  <br><img id="ims2" src="images/m16.jpg"><br><br>
+                  <br>5.<b>RIGHT JOIN</b> – return all rows from the right table and matching rows from the left table or null if no matching rows found in the left table.<br>
+                  <br><img id="ims2" src="images/m15.jpg"><br><br>
+                  <br>6.<b>CROSS JOIN</b> – make a Cartesian product of rows from multiple tables.<br>
+                  <br>7.<b>Self-join</b> – join a table to itself using table alias and connect rows within the same table using inner join and left join.<br>
+              </div>
+              <div id="gd"><br><br><hr><br><br>
+                  <h1> Grouping data</h1>
+                  <br>1.<b>GROUP BY</b> – show you how to group rows into groups based on columns or expressions.<br>
+                  <br><img id="ims2" src="images/m18.jpg"><br><br>
+                  <br>2.<b>HAVING</b> – filter the groups by a specific condition.<br>
+                  <br>3.<b>ROLLUP</b> –  generate multiple grouping sets considering a hierarchy between columns specified in the GROUP BY clause.<br>
+                  <h1> Subqueries</h1>
+                  <br>1.<b>Subquery</b>– show you how to nest a query (inner query) within another query (outer query) and use the result of the inner query for the outer query.<br>
+                  <br>2.<b>Derived table </b>– introduce you to the derived table concept and show you how to use it to simplify complex queries.<br>
+                  <br>3.<b>EXISTS </b>– test for the existence of rows.<br>
+              </div>
+              <div id="cte"><br><br><hr><br><br>
+                  <h1>Common Table Expressions</h1>
+                  <br>1.<b>Common Table Expression or CTE</b> – explain to you the common table expression concept and show you how to use CTE for querying data from tables.<br>
+                  <br>2.<b>Recursive CTE</b> –  use the recursive CTE to traverse the hierarchical data.<br>
+                  <h1>Set operators</h1>
+                  <br>1.<b>UNION and UNION ALL</b> – combine two or more result sets of multiple queries into a single result set.<br>
+                  <br><img id="ims2" src="images/m19.jpg"><br><br>
+                  <br>2.<b>INTERSECT</b> –  show you a couple of ways to simulate the INTERSECT operator.<br>
+                  <br>3.<b>MINUS</b> – explain to you the SQL MINUS operator and show you how to simulate it.<br>
+              </div>
+              <div id="mdm"><br><br><hr><br><br>
+                  <h1>Modifying data in MySQL</h1>
+                  <br>In this section, you will learn how to insert, update, and delete data from tables using various MySQL statements.<br>
+                  <br>1.<b>INSERT</b> – use various forms of the INSERT statement to insert data into a table.<br>
+                  <br>2.<b>INSERT Multiple Rows</b> – insert multiple rows into a table.<br>
+                  <br>3.<b>INSERT INTO SELECT </b>– insert data into a table from the result set of a query.<br>
+                  <br><img id="ims2" src="images/m20.jpg"><br><br>
+                  <br>4.<b>INSERT IGNORE  </b>– explain you the INSERT IGNORE statement that inserts rows into a table and ignores rows that cause errors.<br>
+                  <br>5.<b>UPDATE </b>– learn how to use UPDATE statement and its options to update data in database tables.<br>
+                  <br><img id="ims2" src="images/m21.jpg"><br><br>
+                  <br>6.<b>UPDATE JOIN</b> – show you how to perform cross-table update using UPDATE JOIN statement with INNER JOIN and LEFT JOIN.<br>
+                  <br>7.<b>DELETE</b> – show you how to use the DELETE statement to delete rows from one or more tables.<br>
+                  <br>8.<b>ON DELETE CASCADE</b> – learn how to use ON DELETE CASCADE referential action for a foreign key to delete data from a child table automatically when you delete data from a parent table.<br>
+                  <br>9.<b>DELETE JOIN</b> – show you how to delete data from multiple tables.<br>
+                  <br>10.<b>REPLACE </b>– learn how to insert or update data depends on whether data exists in the table or not.<br>
+                  <br>11.<b>Prepared Statement</b> – show you how to use the prepared statement to execute a query.<br>
+              </div><br><br><br>
+              </p>
+              </div>
+          
+      </div>      
+</body>
+<footer>
+  <h1 class="footer_logo">DECODE DIMAG</h1>
+  <p class="footer_text">Lets DECODE your brain to code</p>
+  
+</footer>
+</html>
